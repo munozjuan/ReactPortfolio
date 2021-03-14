@@ -38,16 +38,35 @@
 }
 
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+
+:root{
+  --primary-white: #fff;
+}
+
+body {
+  font-family: "Roboto Condesed" sans-serif;
+}
 /***  Navbar  ***/
 
 .logo {
-  width: 12rem;
+  width: 10rem;
 }
 
 /*** Menu links ****/
 
 nav a.nav-link{
-  font-weight: 500;
-  letter-spacing: 0.6px;
+  
+  letter-spacing: 0.0375rem;
   cursor: pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a{
+  color: var(--primary-white) !important;
 }
