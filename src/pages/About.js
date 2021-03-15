@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap';
 
+
 function about() {
     return (
         <div className="aboutme">
@@ -10,6 +11,7 @@ function about() {
       <Card.Body>
       
         <Card.Title>About Me</Card.Title>
+        
         <Card.Text>
         
        <p>My name is Juan Munoz. I was born in Peru but moved to a small town in Ohio called Washington Court House when I was seven years old. I am one of four children in my family and I am the only male. I am a USA Air Force veteran. I work full-time at The Ohio State James Cancer hospital. I am currently in school going for a Geographic Information Science degree and I am taking a web developing boot-camp course.</p>
