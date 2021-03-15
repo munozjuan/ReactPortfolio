@@ -53,14 +53,15 @@
 body {
   font-family: "Roboto Condesed" sans-serif;
 }
-/***  Navbar  ***/
-
+/* -----------  NAVBAR----------- */
+nav{
+  z-index: 2;
+}
 .logo {
   width: 10rem;
 }
 
-/*** Menu links ****/
-
+/* -----------  MENU LINKS ----------- */
 nav a.nav-link{
   
   letter-spacing: 0.0375rem;
@@ -92,8 +93,7 @@ nav ul li{
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
-/******** HEADER ******/
-
+/* -----------  HEADER ----------- */
 
 .header-wraper{
   position: relative;
@@ -137,4 +137,13 @@ nav ul li{
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: var(--primary-white);
   margin: 2rem;
+}
+
+/* -----------  PARTICLES ----------- */
+
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
