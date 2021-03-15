@@ -5,7 +5,9 @@ import Navbar from "./components/Navbar";
 /*import Header from "./components/Header";*/
 import {Switch, Route} from 'react-router-dom';
 import About from "./pages/About";
-import Home from "./pages/Home"
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 import {Navlink} from 'react-router-dom';
 
 function App() {
@@ -39,6 +41,12 @@ function App() {
       </Route>
       <Route path="/about" exact>
         <About />
+      </Route>
+      <Route path="/portfolio" exact>
+        <Portfolio />
+      </Route>
+      <Route path="/contact" exact>
+        <Contact />
       </Route>
     </Switch>
     
