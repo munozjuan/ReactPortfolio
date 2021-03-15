@@ -46,6 +46,8 @@
   --primary-white: #fff;
   --primary-orange: rgb(250, 204, 78); 
   --primary-dark: rgba(255,255,255,0);
+  --primary-mint: rgb(71, 233, 171) ;
+  --primary-hover-mint: rgb(51, 161, 119);
 }
 
 body {
@@ -113,4 +115,21 @@ nav ul li{
 .main-info h1 {
   color: rgb(88, 88, 88);
   text-transform: uppercase;
+}
+
+
+/* -----------  TYPED ----------- */
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
+}
+
+/* -----------  HEADER BUTTON ----------- */
+.btn-main-offer {
+  border: 1px solid;
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin: 2rem;
 }
