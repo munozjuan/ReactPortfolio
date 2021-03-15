@@ -60,7 +60,10 @@ nav{
 .logo {
   width: 10rem;
 }
-
+.footer {
+  font-size: 1.2rem;
+  color: #fff;
+}
 /* -----------  MENU LINKS ----------- */
 nav a.nav-link{
   
