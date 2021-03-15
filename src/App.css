@@ -47,7 +47,7 @@
   --primary-orange: rgb(250, 204, 78); 
   --primary-dark: rgba(255,255,255,0);
   --primary-mint: rgb(71, 233, 171) ;
-  --primary-hover-mint: rgb(51, 161, 119);
+  --primary-hover-mint: rgb(158, 250, 215);
 }
 
 body {
@@ -197,5 +197,11 @@ nav ul li{
   font-family: "Roboto Condesed", sans-serif;
   z-index: 1;
 }
-
+@media(max-width:768px) {
+  .aboutme{
+    width: 50%;
+    justify-content: center;
+    font-size: 1rem !important;
+  }
+}
 
