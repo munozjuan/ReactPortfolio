@@ -52,6 +52,10 @@
 
 body {
   font-family: "Roboto Condesed" sans-serif;
+  background: #abbaab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 /* -----------  NAVBAR----------- */
 nav{
@@ -178,3 +182,20 @@ nav ul li{
     display: none;
   }
 }
+
+.aboutme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;  
+  height: 100%; 
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: "Roboto Condesed", sans-serif;
+  z-index: 1;
+}
+
+
