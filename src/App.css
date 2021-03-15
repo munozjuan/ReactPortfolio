@@ -89,3 +89,28 @@ nav ul li{
 .navbar-nav > li > a:hover{
   border-top: 0.1875rem solid var(--primary-orange);
 }
+
+/******** HEADER ******/
+
+
+.header-wraper{
+  position: relative;
+  background: url(Header.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.main-info h1 {
+  color: rgb(88, 88, 88);
+  text-transform: uppercase;
+}
