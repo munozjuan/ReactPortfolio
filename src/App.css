@@ -85,6 +85,12 @@ nav ul li{
   height: 6rem !important;
 }
 
+@media(max-width: 768px){
+  .navbar-brand{
+    width: 7rem;
+  }
+}
+
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.1875rem solid var(--primary-orange);
 }
@@ -115,6 +121,7 @@ nav ul li{
   align-items: center;
   text-align: center;
   font-family: "Roboto Condesed", sans-serif;
+  z-index: 1;
 }
 
 .main-info h1 {
@@ -129,6 +136,15 @@ nav ul li{
   color: var(--primary-white);
 }
 
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
+
 /* -----------  HEADER BUTTON ----------- */
 .btn-main-offer {
   border: 1px solid;
@@ -139,6 +155,12 @@ nav ul li{
   margin: 2rem;
 }
 
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-mint);
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
 /* -----------  PARTICLES ----------- */
 
 .tsparticles-canvas-el {
@@ -146,4 +168,10 @@ nav ul li{
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+@media(max-width:768px) {
+  .particles-canvas{
+    display: none;
+  }
 }
