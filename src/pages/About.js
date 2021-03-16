@@ -1,13 +1,14 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap';
+import me from "../me.png";
 
 
 function about() {
     return (
         <div className="aboutme">
         <Card style={{ width: '50rem'}} >
-      <Card.Img variant="top" src="https://source.unsplash.com/user/erondu/600x400" />
+      <Card.Img variant="top" className="img-fluid" src={me} />
       <Card.Body>
       
         <Card.Title>About Me</Card.Title>
