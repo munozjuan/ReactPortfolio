@@ -8,7 +8,7 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-import {Navlink} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -36,17 +36,18 @@ function App() {
     />
     <Navbar />
     <Switch>
-      <Route path="/" exact>
-        <Home />
-      </Route>
-      <Route path="/about" exact>
+      
+      <Route path="/about" >
         <About />
       </Route>
-      <Route path="/portfolio" exact>
+      <Route path="/portfolio" >
         <Portfolio />
       </Route>
-      <Route path="/contact" exact>
+      <Route path="/contact" >
         <Contact />
+      </Route>
+      <Route path="/" >
+        <Home />
       </Route>
     </Switch>
 

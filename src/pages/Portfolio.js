@@ -37,7 +37,7 @@ class portfolio extends Component {
             <MDBCardImage cascade className="img-fluid" src={password} />
             <MDBCardBody cascade>
               <MDBCardTitle>Random Password Generator</MDBCardTitle>
-              <MDBBtn className="mr-2" rounded color='primary' icon='play' href="https://github.com/munozjuan/Password-Generator">github</MDBBtn>
+              <MDBBtn className="mr-2" rounded icon='play' href="https://github.com/munozjuan/Password-Generator">github</MDBBtn>
               
               <MDBBtn onClick rounded color='primary' icon='play' href="https://munozjuan.github.io/Password-Generator/" target="_blank">App</MDBBtn>
               
@@ -64,7 +64,7 @@ class portfolio extends Component {
               <MDBBtn className="mr-2" rounded color='primary' icon='play' href="https://github.com/munozjuan/NoteTaker">github</MDBBtn>
               
               <MDBBtn onClick rounded color='primary' icon='play' href="https://floating-stream-17005.herokuapp.com/" target="_blank">App</MDBBtn>
-              
+   
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
