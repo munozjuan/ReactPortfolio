@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./components/Navbar";
 /*import Header from "./components/Header";*/
-import {Switch, Route} from 'react-router-dom';
+import {Switch, Route, HashRouter as Router} from 'react-router-dom';
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -35,6 +35,7 @@ function App() {
       }}
     />
     <Navbar />
+    <Router basename={process.env.PUBLIC_URL}>
     <Switch>
       
       <Route path="/about" >
@@ -50,6 +51,7 @@ function App() {
         <Home />
       </Route>
     </Switch>
+    </Router>
 
     
   </>
